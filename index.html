@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Card</title>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <!-- Stylesheet -->
+  <link href="./dist/output.css" rel="stylesheet" />
+ </head>
+ <body>
+  <!-- <h1 class="text-3xl font-bold underline">Hello world!</h1> -->
+  <audio controls autoplay loop hidden>
+   <!-- <source src="horse.ogg" type="audio/ogg" /> -->
+   <source src="./dist/img/Backsound.mp3" type="audio/mpeg" />
+   Your browser does not support the audio element.
+  </audio>
+  <div class="card drop-shadow-lg">
+   <div class="outside">
+    <div class="front rounded-r-lg">
+     <img src="./dist/img/profile.jpg" alt="" class="rounded-full w-4/5 m-auto my-8" />
+     <!-- <p class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"></p> -->
+     <p class="text-2xl font-bold text-center uppercase">
+      <span class="bg-clip-text text-transparent bg-gradient-to-r from-lime-400 to-rose-400">Shima Claudia</span>
+     </p>
+    </div>
+    <div class="back"></div>
+   </div>
+   <div class="inside rounded-r-lg overflow-hidden">
+    <p class="font-bold text-2xl mt-8">
+     Semangat Ngerjain Tugas Skripsinya Cima <span class="font-medium italic block text-lg">Jangan lupa belajar juga, bentar lagi kan uts hehe</span>
+    </p>
+    <img src="./dist/img/smile.png" alt="" class="w-3/5 mb-6" />
+   </div>
+  </div>
+ </body>
+</html>
